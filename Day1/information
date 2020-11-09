@@ -1,0 +1,48 @@
+										Learning Golang
+
+                                [NOTE: for improving knowleadge learn about computer science from wikipedia]
+
+// Installing GO in mac
+- brew install go
+
+// Checking the Go path
+- go env GOPATH
+[Note: By default all the project is in default directory is a home directory]
+
+// Go structure
+- first line in go is have to be a package name
+- next action is import
+- next is functions you use the function keyword followed by the name of the function and the first one you'll want is a
+ function called main
+[Note: it takes no arguments and it doesn't return anything and here the program starts]
+- run the program using "go run" followed by the name of the file
+[
+    package main
+    import "fmt"
+    func main() {
+        fmt.Println("Hello World")
+    }
+]
+- every project at least if you want to be able to execute it needs to have a package called main
+
+// Go Build
+- If you want to compile the code into a executable then you can use go build in the programs directory so this time it
+doesn't run our code there's not output in the terminal but what has created is the binary file and that is executable
+and we can run that in the terminal or alternatively you can use ./filename
+Que: Concurrency
+Ans: Concurrency is about to run multiple functions at the same time in one function or multiple is depends on
+requirements, for achieving concurrency we need go routines and creating go routine is simple as creating a normal
+function we can create a go routine just by adding “go” keyword in front of function. Benefits of using Go routines are
+they are cheap, lightweight threads of execution.
+- For achieving concurrency we also need to use channel
+
+Channel : In Go language, a channel is a medium through which a goroutine communicates with another goroutine and this
+communication is lock-free. Or in other words, a channel is a technique which allows to let one goroutine to send data
+to another goroutine.
+
+[Note: if you want to compile a code into a executable code than you can use “go build” in the program directory and
+this doesn’t give any output in the terminal but what has been created is a one binary file and you can run it through
+terminal using ./file_name ]
+
+https://en.wikipedia.org/wiki/Computer_science
+https://brilliant.org/

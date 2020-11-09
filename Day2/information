@@ -1,0 +1,17 @@
+Interface :- It defines the behaviour of similar type of objects
+Example:
+type Shape interface {
+    Area() float64
+    Diameter() float64
+    Perimeter() float64
+}
+
+// Go is Object Oriented and in this replacement of classes are structs
+Struct :- A struct may have any number of properties and methods defined on them.
+Example:
+type Rectangle struct {
+    Length, Width float64
+}
+type Circle struct {
+    Radius float64
+}

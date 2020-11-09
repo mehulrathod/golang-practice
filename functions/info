@@ -1,0 +1,13 @@
+A function is a collection of statements that perform some specific task and return the result to the caller.
+A function can also perform some specific task without returning anything.
+
+Syntax :
+    func function_name(Parameter-list)(Return_type){
+        // function body.....
+    }
+
+func: It is a keyword in Go language, which is used to create a function.
+function_name: It is the name of the function.
+Parameter-list: It contains the name and the type of the function parameters.
+Return_type: It is optional and it contain the types of the values that function returns. If you are using return_type
+in your function, then it is necessary to use a return statement in your function.

@@ -1,0 +1,14 @@
+If you want to same value throughout the life of program you can use "const" key known as constant and if you want to
+make it changeable then you may use "var" keyword known as variable.
+
+PRINT:
+
+printf for formatting print section
+println is for printing line section
+%v for values of variables
+%T for data-types of variables
+
+BUFIO:
+
+package for taking an input from user, through "bufio" we can create a reader object from a standard input "os".
+"strconv" this package converts strings into integers.
